@@ -3,6 +3,7 @@ name: CI
 on:
   push:
     branches:
+      - test-css-order
       - master
       - 'v*' # prior release branches (e.g. `v0.30.x` branch)
     tags:
